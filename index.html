@@ -1,0 +1,35 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+# layout: home
+layout: l-cover
+---
+<div class="p-5 mb-4 bg-white rounded-3 text-start">
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">Welcome to Nartech</h1>
+    <p class="col-md-8 fs-4 mb-1">Amazing apps and games to improve your every day.
+    <p class="text-muted">Crafted with tender love and care.<p>
+    <!-- <button class="btn btn-primary btn-lg mt-3" type="button">Coming soon</button> -->
+  </div>
+</div>
+<div class="row align-items-md-stretch text-start">
+    <div class="col-md-6 pb-4">
+      <div class="h-100 p-5 bg-white rounded-3">
+        <img src="{{ site.app_icon }}" class="icon-rounded mb-3 appIconLarge" alt="App Icon Logo">
+        <h2 class="appName">{{ site.app_name }}</h2>
+        <p class="appPrice text-muted">{{ site.app_name }}</p>
+        <p class="pb-3">Sharpen your mind with Solitaire! Challenge your brain or simply unwind while playing this version of one of the most popular card games in the world.</p>
+        <a href="https://apps.apple.com/app/{{ site.ios_app_id }}" target="_blank"><img src="assets/img/Download_on_the_App_Store.svg" alt="" height="52"></a>
+      </div>
+    </div>
+    <div class="col-md-6 pb-4">
+      <div class="h-100 p-5 bg-white rounded-3">
+        <!-- <img src="/assets/img/Solitare.png" class="icon-rounded mb-3" alt="Solitaire App Icon"> -->
+        <svg class="bd-placeholder-img flex-shrink-0 me-2 icon-rounded mb-3" width="96" height="96" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#dee2e6"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">96x96</text></svg>
+        <h2>App Name</h2>
+        <p>A short description must be here.</p>
+        <button class="btn btn-outline-secondary" type="button">Coming soon</button>
+      </div>
+    </div>
+</div>
