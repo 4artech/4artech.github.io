@@ -7,6 +7,15 @@
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
         <title>4artech.github.io</title>
+        <!-- Microanalytics -->
+        <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+        <!-- <meta name="google-site-verification" content="{{ site.google_verification }}" /> -->
+        <!-- Panelbear Analytics - We respect your privacy -->
+        <script async src="https://cdn.panelbear.com/analytics.js?site=5bjmTY3vCbi"></script>
+        <script>
+            window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
+            panelbear('config', { site: '5bjmTY3vCbi' });
+        </script>
     </head>
     <body class="d-flex h-100 text-center">
         <div class="container d-flex w-100 h-100 mx-auto flex-column">
@@ -28,6 +37,7 @@
         <script>
     
             const regex = /https:\/\/4artech.github.io\/share\/\?([A-Za-z0-9]+)$/gm;
+            const regex = /http:\/\/4artech.github.io\/share\/\?([A-Za-z0-9]+)$/gm;
             let matches = (window.location.href.match(regex) || []).map(e => e.replace(regex, '$1'));
     
             function errorFunction() {
