@@ -27,7 +27,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script>
     
-            const regex = /https:\/\/4artech.github.io\/share\?([A-Za-z0-9]+)$/gm;
+            const regex = /https:\/\/4artech.github.io\/share\/\?([A-Za-z0-9]+)$/gm;
             let matches = (window.location.href.match(regex) || []).map(e => e.replace(regex, '$1'));
     
             function errorFunction() {
