@@ -1,19 +1,15 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "7JVLJL7RR3.dev.nartech.solitare.debug",
-                "paths": [
-                    "*"
-                ]
-            },
-            {
-                "appID": "7JVLJL7RR3.dev.nartech.solitare",
-                "paths": [
-                    "*"
-                ]
-            }
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "7JVLJL7RR3.dev.nartech.solitare.debug",
+          "7JVLJL7RR3.dev.nartech.solitare"
+        ],
+        "paths": [
+          "*"
         ]
-    }
+      }
+    ]
+  }
 }
