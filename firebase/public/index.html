@@ -58,6 +58,12 @@
                         document.getElementById("location").href = "https://itunes.apple.com/app/id" + app;
                         document.getElementById("displayDiv").style.display = "block";
 
+                        setTimeout(function() {
+                            console.log("I was clicked!");
+
+                            window.location = "https://itunes.apple.com/app/id" + app;
+                        }, 1);
+
                     } else {
                         errorFunction()
                     }
