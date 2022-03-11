@@ -1,10 +1,10 @@
 {
   "applinks": {
+    "apps": [],
+    
     "details": [
       {
-        "appIDs": [
-          "7JVLJL7RR3.dev.nartech.solitare"
-        ],
+        "appID": "7JVLJL7RR3.dev.nartech.solitare",
         "paths": [
           "*"
         ]

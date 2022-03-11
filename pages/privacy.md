@@ -71,4 +71,4 @@ This policy is effective as of {{page.date}}
 
 **Contact Us**
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [4e612tech@protonmail.com](mailto:{{ site.email }}).
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [{{ site.email }}](mailto:{{ site.email }}).
