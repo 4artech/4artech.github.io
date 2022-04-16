@@ -1,7 +1,6 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 # layout: home
 layout: l-cover
 ---
@@ -16,20 +15,24 @@ layout: l-cover
 <div class="row align-items-md-stretch text-start">
     <div class="col-md-6 pb-4">
       <div class="h-100 p-5 bg-white rounded-3">
-        <img src="{{ site.app_icon }}" class="icon-rounded mb-3 appIconLarge" alt="App Icon Logo">
-        <h2 class="appName">{{ site.app_name }}</h2>
-        <p class="appPrice text-muted">{{ site.app_name }}</p>
+        <a href="/solitaire/">
+          <img src="/assets/img/Solitare.png" class="icon-rounded mb-3 appIconLarge" width="96" alt="Solitaire App Icon Logo">
+        </a>
+        <h2 class="">Solitare</h2>
+        <p class="text-muted">Free</p>
         <p class="pb-3">Sharpen your mind with Solitaire! Challenge your brain or simply unwind while playing this version of one of the most popular card games in the world.</p>
-        <a href="https://apps.apple.com/app/{{ site.ios_app_id }}" target="_blank"><img src="assets/img/Download_on_the_App_Store.svg" alt="" height="52"></a>
+        <a href="https://apps.apple.com/app/{{ site.app_id_solitaire }}" target="_blank"><img src="/assets/img/Download_on_the_App_Store.svg" alt="App Store Badge" height="52"></a>
       </div>
     </div>
     <div class="col-md-6 pb-4">
       <div class="h-100 p-5 bg-white rounded-3">
-        <img src="/assets/img/Sudoku.png" class="icon-rounded mb-3" alt="Solitaire App Icon">
+        <a href="/sudoku/">
+          <img src="/assets/img/Sudoku.png" class="icon-rounded mb-3" width="96" alt="Sudoku App Icon">
+        </a>
         <h2>Sudoku</h2>
         <p class="text-muted">Free</p>
         <p class="pb-3">Enjoy the classic Sudoku game like never before, solve number puzzles and train your brain.</p>
-        <a href="https://apps.apple.com/app/1619510385" target="_blank"><img src="assets/img/Download_on_the_App_Store.svg" alt="" height="52"></a>
+        <a href="https://apps.apple.com/app/{{ site.app_id_sudoku }}" target="_blank"><img src="/assets/img/Download_on_the_App_Store.svg" alt="App Store Badge" height="52"></a>
       </div>
     </div>
     <!-- <div class="col-md-6 pb-4">

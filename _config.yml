@@ -6,6 +6,9 @@ app_name:
 app_price:
 enable_smart_app_banner: true
 ###
+app_id_solitaire: 1606400625
+app_id_sudoku: 1619510385
+
 title: Nartech
 email: support@nartech.dev
 description: >- # this means to ignore newlines until "baseurl:"
@@ -13,7 +16,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   We do complex things in a click and solve ten tasks with one tool. 
   Because simple is best.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nartech.dev/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
