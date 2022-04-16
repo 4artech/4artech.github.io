@@ -3,7 +3,7 @@ layout: l-markdown
 title: Privacy Policy
 description: Nartech privacy and policy description
 effective-date: "Effective date: October 15, 2021"
-date: "October 15, 2021"
+date: "April 15, 2022"
 permalink: /privacy/
 ---
 # {{page.title}}
