@@ -3,13 +3,13 @@
     "apps": [],
     "details": [
       {
-        "appID": "7JVLJL7RR3.dev.sudoku",
+        "appID": "7JVLJL7RR3.dev.sudoku.debug",
         "paths": [
           "*"
         ]
       },
       {
-        "appID": "7JVLJL7RR3.dev.sudoku.debug",
+        "appID": "7JVLJL7RR3.dev.sudoku",
         "paths": [
           "*"
         ]
