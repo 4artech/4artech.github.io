@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    
+    "details": [
+      {
+        "appID": "7JVLJL7RR3.dev.sudoku",
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  }
+}

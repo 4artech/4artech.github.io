@@ -1,12 +1,5 @@
 {
   "hosting": {
-    "headers": [
-      {
-        "source": "/.well-known/apple-app-site-association",
-        "headers": [{"key": "Content-Type", "value": "application/json"}]
-      }
-    ],
-    "site": "solitaire-invite",
     "public": "public",
     "ignore": [
       "firebase.json",
