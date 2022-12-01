@@ -8,6 +8,7 @@ enable_smart_app_banner: true
 ###
 app_id_solitaire: 1606400625
 app_id_sudoku: 1619510385
+app_id_new_solitaire: 6444867437
 
 title: Nartech
 email: support@nartech.dev
